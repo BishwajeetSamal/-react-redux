@@ -1,5 +1,5 @@
 const redux = require("redux");
-const reduxLogger = require("redux-logger");
+const reduxLogger = reqSSuire("redux-logger");
 const createStore = redux.createStore;
 const combineReducers = redux.combineReducers;
 const applyMiddleware = redux.applyMiddleware;
